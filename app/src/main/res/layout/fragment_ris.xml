@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:slidingLayer="http://schemas.android.com/apk/com.fugao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ris_information_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/listView_ris_information"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:divider="@android:color/white"
+            android:dividerHeight="0dp"
+            android:visibility="gone" >
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/progressBar_ris_information"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:indeterminate="true"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/ris_infor_unweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reconnect"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

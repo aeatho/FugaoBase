@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="UIButton">
+        <attr name="ui_title" format="string" />
+        <attr name="ui_subtitle" format="string" />
+        <attr name="ui_image" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="dividerPadding" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="textAllCaps" format="boolean" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="tabTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SegmentButton">
+        <attr name="textSize" format="float" />
+        <attr name="textPressColor" format="color" />
+        <attr name="textNormalColor" format="color" />
+        <!-- Button内容以分号隔开 -->
+        <attr name="buttonContent" format="string" />
+    </declare-styleable>
+
+</resources>

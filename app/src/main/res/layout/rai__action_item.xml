@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/action_bar_default_height"
+    android:layout_height="@dimen/action_bar_default_height" >
+
+    <ImageView
+        android:id="@+id/refresh_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:scaleType="center" />
+
+    <ProgressBar
+        android:id="@+id/indeterminate_progress_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="true"
+        android:padding="8dp" />
+
+    <com.fugao.view.refreshmenuitem.ProgressIndicator
+        android:id="@+id/determinate_progress_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

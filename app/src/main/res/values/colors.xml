@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- LIST BORDER COLOR -->
+    <color name="rounded_container_border">#ffb7babb</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    <color name="cutsom_top_background">#FF3F9FE0</color>
+    <color name="cutsom_top_background1">#ff2ca7ea</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="detail_tabindictor">#FF3F9FE0</color>
+    <color name="lightblack">#ff202020</color>
+    <!-- 灰色 -->
+    <color name="frenchgrey">#F4F4F4</color>
+    <!-- 标题字体颜色 -->
+    <color name="actionbarBackground">#007AFF</color>
+    
+    <!-- extendTabView -->
+    <color name="popup_main_background">#b0000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="no_color">#00000000</color>
+    <!-- 秋香色 -->
+    <color name="qiuxiang_color_bg">#D9B611</color>
+    <color name="half_tramsparent_qiuxiang">#E0D9B611</color>
+    <!-- 牙色 -->
+	<color name="ya_color_bg">#ECE0B0</color>
+	<color name="half_tramsparent_ya">#E0ECE0B0</color>
+</resources>

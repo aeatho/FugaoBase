@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/shape"
+    android:padding="2dp"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/comboEditText"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/edittext_bg_background"
+        android:hint=" "
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="16dp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/comboButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/combox_selector" />
+
+</LinearLayout>

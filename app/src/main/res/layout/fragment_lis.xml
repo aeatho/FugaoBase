@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:slidingLayer="http://schemas.android.com/apk/com.fugao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/listView_lis_information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/white"
+        android:dividerHeight="0dp" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/progress_lis_infor_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progressBar_lis_information"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:indeterminate="true" />
+
+        <Button
+            android:id="@+id/button_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reconnect"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.fugao.view.SlidingLayer
+        android:id="@+id/lis_result_view_sliding_layer"
+        android:layout_width="@dimen/layer_width"
+        android:layout_height="match_parent"
+        slidingLayer:closeOnTapEnabled="true"
+        slidingLayer:sl_offsetWidth="@dimen/offset_width"
+        slidingLayer:sl_shadowDrawable="@drawable/sidebar_shadow"
+        slidingLayer:sl_shadowWidth="@dimen/shadow_width"
+        slidingLayer:sl_slcloseOnTapEnabled="true"
+        slidingLayer:sl_stickTo="right" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#14ad8f" >
+
+            <RelativeLayout
+                android:id="@+id/lis_result_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/lis_close_image_view"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/lis_close" />
+
+                <ListView
+                    android:id="@+id/listView_lis_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lis_close_image_view"
+                    android:background="@android:color/white"
+                    android:visibility="gone" >
+                </ListView>
+
+                <ProgressBar
+                    android:id="@+id/progressBar_lis_result"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:indeterminate="true" />
+
+                <Button
+                    android:id="@+id/lis_result_unweb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reconnect"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.fugao.view.SlidingLayer>
+
+</RelativeLayout>

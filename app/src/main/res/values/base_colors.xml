@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="rbm_menu_background">#303030</color>
+    <color name="split_up">#F5F5F5</color>
+    <!-- 左侧区域的颜色 -->
+    <color name="leftcontainerbackground">#F5F5F5</color>
+    <!-- 左侧 标题的颜色 -->
+    <color name="leftttiltebackground">#5297C1</color>
+    <!-- 左侧表情被选中的颜色 -->
+    <color name="letfcheckbackground">#E3EEF6</color>
+    <color name="buttomtitlebackground">#3382AA</color>
+    <color name="actionbarbackground">#DDF1FF</color>
+    <color name="check">#CDEEFF</color>
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="lightyellow">#FFFFE0</color>
+    <!-- 亮黄色 -->
+    <color name="yellow">#FFFF00</color>
+    <!-- 黄色 -->
+    <color name="snow">#FFFAFA</color>
+    <!-- 雪白色 -->
+    <color name="lavenderblush">#FFF0F5</color>
+    <!-- 淡紫红 -->
+    <color name="papayawhip">#FFEFD5</color>
+    <!-- 番木色 -->
+    <color name="blanchedalmond">#FFEBCD</color>
+    <!-- 白杏色 -->
+    <color name="mistyrose">#FFE4E1 </color>
+    <!-- 浅玫瑰色 -->
+    <color name="bisque">#FFE4C4</color>
+    <!-- 桔黄色 -->
+    <color name="navajowhite">#FFDEAD</color>
+    <!-- 纳瓦白 -->
+    <color name="peachpuff">#FFDAB9</color>
+    <!-- 桃色 -->
+    <color name="gold">#FFD700</color>
+    <!-- 金色 -->
+    <color name="pink">#FFC0CB</color>
+    <!-- 粉红色 -->
+    <color name="lightpink">#FFB6C1</color>
+    <!-- 亮粉红色 -->
+    <color name="orange">#FFA500</color>
+    <!-- 橙色 -->
+    <color name="coral">#FF7F50</color>
+    <!-- 珊瑚色 -->
+    <color name="hotpink">#FF69B4</color>
+    <!-- 热粉红色 -->
+    <color name="tomato">#FF6347</color>
+    <!-- 西红柿色 -->
+    <color name="orangered">#FF4500</color>
+    <!-- 红橙色 -->
+    <color name="deeppink">#FF1493</color>
+    <!-- 深粉红色 -->
+    <color name="fuchsia">#FF00FF</color>
+    <!-- 紫红色 -->
+    <color name="magenta">#FF00FF</color>
+    <!-- 红紫色 -->
+    <color name="red">#FF0000</color>
+    <!-- 红色 -->
+    <color name="oldlace">#FDF5E6</color>
+    <!-- 老花色 -->
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <!-- 亮金黄色 -->
+    <color name="linen">#FAF0E6</color>
+    <!-- 亚麻色 -->
+    <color name="blue">#0000FF</color>
+    <!-- 蓝色 -->
+    <color name="green">#008000</color>
+    <!-- 绿色 -->
+    <color name="dimgrey">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="grey">#CCCCCC</color>
+    <!-- 灰色 -->
+    <color name="listselector">#e7e7e7</color>
+
+    <!-- 文章标题随即颜色 -->
+    <color name="color1">#dd3a07</color>
+    <color name="color2">#f2a11a</color>
+    <color name="color3">#5fa6d3</color>
+    <color name="color4">#7bc82a</color>
+    <color name="color5">#9eaf24</color>
+    <color name="color6">#fb6882</color>
+    <color name="color7">#1a836d</color>
+    <color name="color8">#a4660a</color>
+    <color name="color10">#FF0033</color>
+
+</resources>

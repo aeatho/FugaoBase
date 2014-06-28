@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version_description">©2014 上海复高%1$s </string>
+    <string name="exit_alertdialog_cancel">取消</string>
+    <string name="exit_alertdialog_certain">确定</string>
+    <string name="exit_alertdialog">温馨提示</string>
+    <string name="exit_alertdialog_sure">你确定要退出？</string>
+    <string  name="alert_close">关闭</string>
+    <!--  -->
+    <string name="reconnect">重新加载..</string>
+    <string name="no_data">无数据！</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+</resources>
